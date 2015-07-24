@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C61C5920-EFC3-4DCE-BC5D-ADEAE46AA095</string>
+	<key>IDESourceControlProjectName</key>
+	<string>shipDistance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9CDEBD3EC4B835F0B7C974DED162B2E3A0107C44</key>
+		<string>https://github.com/d-zenju/shipDistance.git</string>
+		<key>C5A8578E0F16BCE223AEB73988AAF7C4E82227F0</key>
+		<string>https://github.com/d-zenju/shipDistance.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>shipDistance.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9CDEBD3EC4B835F0B7C974DED162B2E3A0107C44</key>
+		<string>../..</string>
+		<key>C5A8578E0F16BCE223AEB73988AAF7C4E82227F0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/d-zenju/shipDistance.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9CDEBD3EC4B835F0B7C974DED162B2E3A0107C44</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5A8578E0F16BCE223AEB73988AAF7C4E82227F0</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CDEBD3EC4B835F0B7C974DED162B2E3A0107C44</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shipDistance</string>
+		</dict>
+	</array>
+</dict>
+</plist>

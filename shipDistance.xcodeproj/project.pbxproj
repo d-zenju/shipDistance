@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68FDF1891B6120BC006D0AA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68FDF1881B6120BC006D0AA2 /* main.cpp */; };
+		68FDF1901B61215B006D0AA2 /* libopencv_core.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FDF18F1B61215B006D0AA2 /* libopencv_core.2.4.11.dylib */; };
+		68FDF1921B612176006D0AA2 /* libopencv_highgui.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FDF1911B612176006D0AA2 /* libopencv_highgui.2.4.11.dylib */; };
+		68FDF1941B612188006D0AA2 /* libopencv_imgproc.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FDF1931B612188006D0AA2 /* libopencv_imgproc.2.4.11.dylib */; };
+		68FDF19A1B61289A006D0AA2 /* calcDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68FDF1981B61289A006D0AA2 /* calcDistance.cpp */; };
+		68FDF19E1B61337C006D0AA2 /* mouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68FDF19C1B61337C006D0AA2 /* mouse.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68FDF1831B6120BC006D0AA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68FDF1851B6120BC006D0AA2 /* shipDistance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shipDistance; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FDF1881B6120BC006D0AA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		68FDF18F1B61215B006D0AA2 /* libopencv_core.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.11.dylib; path = ../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_core.2.4.11.dylib; sourceTree = "<group>"; };
+		68FDF1911B612176006D0AA2 /* libopencv_highgui.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.11.dylib; path = ../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_highgui.2.4.11.dylib; sourceTree = "<group>"; };
+		68FDF1931B612188006D0AA2 /* libopencv_imgproc.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.11.dylib; path = ../../../../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_imgproc.2.4.11.dylib; sourceTree = "<group>"; };
+		68FDF1981B61289A006D0AA2 /* calcDistance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calcDistance.cpp; sourceTree = "<group>"; };
+		68FDF1991B61289A006D0AA2 /* calcDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calcDistance.h; sourceTree = "<group>"; };
+		68FDF19B1B612972006D0AA2 /* parameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parameter.h; sourceTree = "<group>"; };
+		68FDF19C1B61337C006D0AA2 /* mouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mouse.cpp; sourceTree = "<group>"; };
+		68FDF19D1B61337C006D0AA2 /* mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mouse.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68FDF1821B6120BC006D0AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FDF1921B612176006D0AA2 /* libopencv_highgui.2.4.11.dylib in Frameworks */,
+				68FDF1941B612188006D0AA2 /* libopencv_imgproc.2.4.11.dylib in Frameworks */,
+				68FDF1901B61215B006D0AA2 /* libopencv_core.2.4.11.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68FDF17C1B6120BC006D0AA2 = {
+			isa = PBXGroup;
+			children = (
+				68FDF1931B612188006D0AA2 /* libopencv_imgproc.2.4.11.dylib */,
+				68FDF1911B612176006D0AA2 /* libopencv_highgui.2.4.11.dylib */,
+				68FDF18F1B61215B006D0AA2 /* libopencv_core.2.4.11.dylib */,
+				68FDF1871B6120BC006D0AA2 /* shipDistance */,
+				68FDF1861B6120BC006D0AA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68FDF1861B6120BC006D0AA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FDF1851B6120BC006D0AA2 /* shipDistance */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68FDF1871B6120BC006D0AA2 /* shipDistance */ = {
+			isa = PBXGroup;
+			children = (
+				68FDF1BE1B615551006D0AA2 /* calcDistance */,
+				68FDF1BD1B6154FA006D0AA2 /* mouse */,
+				68FDF1881B6120BC006D0AA2 /* main.cpp */,
+				68FDF19B1B612972006D0AA2 /* parameter.h */,
+			);
+			path = shipDistance;
+			sourceTree = "<group>";
+		};
+		68FDF1BD1B6154FA006D0AA2 /* mouse */ = {
+			isa = PBXGroup;
+			children = (
+				68FDF19C1B61337C006D0AA2 /* mouse.cpp */,
+				68FDF19D1B61337C006D0AA2 /* mouse.h */,
+			);
+			name = mouse;
+			sourceTree = "<group>";
+		};
+		68FDF1BE1B615551006D0AA2 /* calcDistance */ = {
+			isa = PBXGroup;
+			children = (
+				68FDF1981B61289A006D0AA2 /* calcDistance.cpp */,
+				68FDF1991B61289A006D0AA2 /* calcDistance.h */,
+			);
+			name = calcDistance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68FDF1841B6120BC006D0AA2 /* shipDistance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FDF18C1B6120BC006D0AA2 /* Build configuration list for PBXNativeTarget "shipDistance" */;
+			buildPhases = (
+				68FDF1811B6120BC006D0AA2 /* Sources */,
+				68FDF1821B6120BC006D0AA2 /* Frameworks */,
+				68FDF1831B6120BC006D0AA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shipDistance;
+			productName = shipDistance;
+			productReference = 68FDF1851B6120BC006D0AA2 /* shipDistance */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68FDF17D1B6120BC006D0AA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "ZENJU Daisuke";
+				TargetAttributes = {
+					68FDF1841B6120BC006D0AA2 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 68FDF1801B6120BC006D0AA2 /* Build configuration list for PBXProject "shipDistance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68FDF17C1B6120BC006D0AA2;
+			productRefGroup = 68FDF1861B6120BC006D0AA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68FDF1841B6120BC006D0AA2 /* shipDistance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68FDF1811B6120BC006D0AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FDF1891B6120BC006D0AA2 /* main.cpp in Sources */,
+				68FDF19A1B61289A006D0AA2 /* calcDistance.cpp in Sources */,
+				68FDF19E1B61337C006D0AA2 /* mouse.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68FDF18A1B6120BC006D0AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68FDF18B1B6120BC006D0AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68FDF18D1B6120BC006D0AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/Cellar/opencv/**",
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/2.4.11_1/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68FDF18E1B6120BC006D0AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/Cellar/opencv/**",
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/2.4.11_1/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68FDF1801B6120BC006D0AA2 /* Build configuration list for PBXProject "shipDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FDF18A1B6120BC006D0AA2 /* Debug */,
+				68FDF18B1B6120BC006D0AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68FDF18C1B6120BC006D0AA2 /* Build configuration list for PBXNativeTarget "shipDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FDF18D1B6120BC006D0AA2 /* Debug */,
+				68FDF18E1B6120BC006D0AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68FDF17D1B6120BC006D0AA2 /* Project object */;
+}
